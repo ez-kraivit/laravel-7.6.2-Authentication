@@ -43,6 +43,10 @@ $ php artisan migrate
 ```
 
 ```
+$ php artisan generate key
+```
+
+```
 $ php artisan db::seed
 ```
 
