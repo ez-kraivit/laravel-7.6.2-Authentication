@@ -56,7 +56,8 @@ php artisan make:controller \\Admin\\MenageUsersController -r -mUser
 สาระน่ารู้ มาอธิบายให้น้อง ๆ หนู ๆ ฟัง use Illuminate\Support\Facades\Gate;
 เราจะทำการประกาศ ให้มันรู้จัก Gate มันคืออะไร อธิบายง่าย ๆ ไม่ต้องวิชาการ มันเป็นเหมือน ชั้นบรรยากาศนอก สมุตติตอนนี้เราคือ สร้างโลกที่เอเลี่ยนกำลังบุกเข้ามา ส่วน middleware เป็นชั้นบรรยากาศใน
 middleware อย่าลืมว่า สิ่งที่เราจะทำ Roles ก็เป็นชั้นบรรยากาศอีกที ไม่งงเนอะ โดยที่เราให้มันรู้จักกัน ผ่าน Controller 
-
+Gateway: Gateway is just a single entry point for clients to call API services.
+Services: Services hold main logics and processing of data to be sent to clients via API.
 
 
 ในอนาคตเราจะต้องฝึกใช้ Controller -r ทุกครั้ง เพราะอะไรไปดูกัน 
