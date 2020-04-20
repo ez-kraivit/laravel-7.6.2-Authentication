@@ -30,11 +30,25 @@
             'password' => Hash::make('password@')
         ]);
         
-```$ composer i```
-```$ composer dump-autoload```
-```$ php artisan migrate```
-```$ php artisan db::seed```
-```$ php artisan serve```
+```
+$ composer i
+```
+
+```
+$ composer dump-autoload
+```
+
+```
+$ php artisan migrate
+```
+
+```
+$ php artisan db::seed
+```
+
+```
+$ php artisan serve
+```
 
 
 ## License
