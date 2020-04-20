@@ -11,13 +11,6 @@
 
 เมื่อได้ไฟล์ไปแล้วต้องการทดสอบระบบ ให้ทำการ สร้าง Database Name Demo collation utf8_general_ci
 
-composer i
- 
-composer dump-autoload
-
-php artisan migrate
-
-php artisan db::seed
 
 ให้เราเข้าไปแก้ไขใน UserTableSeeder.php
 
@@ -36,7 +29,11 @@ php artisan db::seed
             "email" => 'user@user.com',
             'password' => Hash::make('password@')
         ]);
-
+        
+### composer i
+### composer dump-autoload
+### php artisan migrate
+### php artisan db::seed
 ### php artisan serve
 
 
