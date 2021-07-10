@@ -19,6 +19,9 @@ laravel mix
 
 composer require laravel/ui
 php artisan ui vue --auth
+or
+composer require laravel/ui:^2.4
+php artisan ui vue --auth
 
 กรณีคุณอยากจะใช้ Vue ก็ติดตั้ง
 npm i 
